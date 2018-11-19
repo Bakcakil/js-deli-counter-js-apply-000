@@ -1,3 +1,4 @@
+/*
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
@@ -19,4 +20,10 @@ function takeANumber(katzDeliLine, name) {
   } else {
     return "The line is currently empty."
   }
+}
+*/
+
+
+function takeANumber(katzDeliLine, name) {
+  return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
 }
