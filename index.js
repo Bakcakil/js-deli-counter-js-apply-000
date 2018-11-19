@@ -45,5 +45,6 @@ function currentLine(line) {
       array.push(` ${i + 1}. ${line[i]}`)
     }
     return "The line is currently:" + array
-  }
+  } else
+    return "The line is currently empty."
 }
