@@ -40,7 +40,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(line) {
   if (line.length > 0) {
-    var array = [0]
+    var array = []
     for (let i = 0; i < line.length; i++) {
       array.push(` ${i + 1}. ${line[i]}`)
     }
